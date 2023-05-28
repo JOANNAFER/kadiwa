@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GroceryApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".MessageNewAct"
+            android:exported="false" />
+        <activity
+            android:name=".NotifNewAct"
+            android:exported="false" />
+        <activity
+            android:name=".ShopReview"
+            android:exported="false" />
+        <activity
+            android:name=".ShopHome"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfAct5"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfAct6"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfAct4"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfAct3"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfAct2"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfAct1"
+            android:exported="false" />
+        <activity
+            android:name=".MyShopInfo"
+            android:exported="false" />
+        <activity
+            android:name=".ShopRegister"
+            android:exported="false" />
+        <activity
+            android:name=".ProfHeheActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfHihiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckoutCartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfHohoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfHahaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfGegeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfGigiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfJejeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfJujuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfMyShopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfJijiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MessageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+    </application>
+
+</manifest>
